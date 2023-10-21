@@ -3,6 +3,15 @@ body {
     overflow: hidden; /* Hide scrollbars */
 }
 
+@media (max-width: 700px) {
+    .box2 {
+        background-color: blue;
+    }
+    #flexbox {
+        scale: 0.5;
+    }
+}
+
 #container {
     display: flex;
     /* flex-direction: column; */ 
@@ -34,6 +43,7 @@ body {
 
 .box1 {
     width: 600px;
+    background-color: aquamarine;
 }
 
 .box2 {
