@@ -5,7 +5,7 @@ body {
 
 @media (max-width: 700px) {
     .box2 {
-        background-color: blue;
+        background-color: rgb(134, 214, 132);
     }
     #flexbox {
         scale: 0.5;
